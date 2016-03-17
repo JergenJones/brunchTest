@@ -1,11 +1,10 @@
-$default-bg = white
-$default-text = black
+@import 'variables'
 
 body 
   font-family: Georgia, serif
   font-size: 16px
-  background: $default-bg
-  color: $default-text
+  background: default-bg
+  color: default-text
 
 
 h1 
@@ -13,7 +12,7 @@ h1
   margin: 0.5em 0 1em
 
   & > small 
-    color: gray
+    color: complement(default-bg)
     font-size: 70%
   
 
