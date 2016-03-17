@@ -8,6 +8,7 @@
     "sass-brunch": "^2.0.0"
   },
   "dependencies": {
-    "browser-sync-brunch": "0.0.9"
+    "browser-sync-brunch": "0.0.9",
+    "jquery": "^2.2.1"
   }
 }
